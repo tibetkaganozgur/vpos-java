@@ -3,7 +3,7 @@
 ##############################
 .mtj.tmp/
 *.class
-*.jar
+#*.jar
 *.war
 *.ear
 *.nar
@@ -12,8 +12,8 @@ hs_err_pid*
 ##############################
 ## Maven
 ##############################
-target/
-!target/dependency/webapp-runner.jar
+#target/
+#!target/dependency/webapp-runner.jar
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
