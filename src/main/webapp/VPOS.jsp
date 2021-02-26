@@ -9,19 +9,6 @@
      </head>
      <body>
 
-<%--COOKIE example--%>
-<%--
-
-String favLang = reguest.getParameter("favoriteLanguage");
-
-Cookie theCookie = new Cookie ("myApp.favoriteLanguage", favLang);
-
-theCookie.setMaxAge(60*60*24*365);
-
-response.addCookie(theCookie);
-
---%>     
-<%--COOKIE example. NOT finished yet! JAVA classinda bir cookie denemesi var. Samesite=None seklinde.--%>
 
 <%	
 String MbrId="11";                                                        //Kurum Kodu
