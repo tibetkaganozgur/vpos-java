@@ -13,7 +13,7 @@ hs_err_pid*
 ## Maven
 ##############################
 target/
-!target/dependency/*
+!target/dependency/webapp-runner.jar
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
@@ -83,4 +83,4 @@ nb-configuration.xml
 ## OS X
 ##############################
 .DS_Store
-/target/
+##/target/
