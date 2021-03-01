@@ -61,9 +61,8 @@ tmp/
 local.properties
 .loadpath
 .factorypath
-
-.settings/
-target/
+.settings/*
+target/*
 .classpath
 .gitignore
 .project
