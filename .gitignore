@@ -62,6 +62,13 @@ local.properties
 .loadpath
 .factorypath
 
+.settings/
+target/
+.classpath
+.gitignore
+.project
+
+
 ##############################
 ## NetBeans
 ##############################
