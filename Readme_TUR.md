@@ -14,7 +14,6 @@ Proje iframe ve uygulama içi ödeme seçenekleri ile sunulmaktadır.
 
 CSRF(Cross Site Request Forgery) tehlikesi sebebiyle tarayıcılar, _SameSite Cookie_'nin varsayılan değerini "_None_" yerine "_Lax_" olarak değiştirdiler. Bu değişiklik Sanal Pos uygulamalarının çalışmasını engelleyeceğinden "_None_" ve "_Secure_" olarak ayarlandı. 
 
-
 ## 3D Host
 
 Güvenli Ödeme Sayfası veya Ortak Ödeme Sayfası olarak da bilinen bu model kredi kartının 3D Secure doğrulamasının ve üye işyeri anlaşmalı bankasına ödemenin yapıldığı, doğrulama ve ödeme sonuç bilgilerinin ise Sanal POS uygulamasına iletildiği modeldir. Ayıca üye işyerinin SSL sertifikası bulunmuyor veya kredi kart bilgilerini kendi sistemi üzerinden almak istemiyorsa da tercih etmesinin uygun olacağı modeldir.

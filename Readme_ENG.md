@@ -18,7 +18,7 @@ Due to the danger of CSRF (Cross Site Request Forgery), browsers changed the def
 
 This model, which is also known as Secure Payment Page or Mutual Payment Page, is the model in which the credit card 3D Secure verification and the payment to the merchant contracted bank are made, and the verification and payment result information is transferred to the Virtual POS application. Besides, it is the appropriate model to be selected if the merchant does not have an SSL certificate or does not want to receive the credit card information through its own system.
 
-## Ödeme Modeli
+## Payment Model
 
 In this model, the Virtual POS belonging to the merchant only sends the shopping information. The verification of the credit card is done via a new, secure window, which has been customized according to the bank.
 
