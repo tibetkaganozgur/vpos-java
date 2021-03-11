@@ -27,7 +27,7 @@ public class VposFilter implements Filter {
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain) throws IOException, ServletException {
 		System.out.println("Filter working");
 		chain.doFilter(request, response);
-		((HttpServletResponse)response).setHeader("Set-Cookie", "key=value; HttpOnly;Secure; SameSite="); //safari 3rd party cookies does not work if SameSite attribute is set.
+		((HttpServletResponse)response).setHeader("Set-Cookie", "key=value; HttpOnly;Secure; SameSite=None"); //safari 3rd party cookies does not work if SameSite attribute is set.
 		//((HttpServletResponse)response).setHeader("Set-Cookie", "key=value; HttpOnly;Secure; SameSite=None");
 	}
 
