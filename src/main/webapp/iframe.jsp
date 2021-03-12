@@ -5,9 +5,8 @@
 <html>
 <body>
 	
-	
 	<iframe src="VPOS.jsp" name=deneme style="border: none;" height="9000" width="7000"
 		title="iframe yoluyla odeme"></iframe>
-		<a href="deneme" target="_blank">click</a>
+		
 </body>
 </html>
