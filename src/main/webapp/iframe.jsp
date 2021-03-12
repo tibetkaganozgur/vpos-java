@@ -12,7 +12,7 @@
  --%>
 
 
-	<a href="VPOS.jsp" target="_blank">i frame - all good</a>
+	<a href="VPOS.jsp" target="_blank"></a>
 
 </body>
 </html>
