@@ -5,7 +5,15 @@
 <html>
 <body>
 
-<iframe src="VPOS.jsp" style="border:none;"  height="800" width="600" title="iframe yoluyla odeme"></iframe>
+
+	<%--
+	<iframe src="VPOS.jsp" style="border: none;" height="800" width="600"
+		title="iframe yoluyla odeme"></iframe>
+ --%>
+
+
+	<a href="VPOS.jsp" target="_blank">i frame - all good</a>
 
 </body>
 </html>
+
