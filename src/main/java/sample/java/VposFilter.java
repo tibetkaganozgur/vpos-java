@@ -11,7 +11,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebFilter;
 import javax.servlet.http.HttpServletResponse;
 
-@WebFilter(urlPatterns = {"/VPOS.jsp"})
+@WebFilter(urlPatterns = {"/*"})
 public class VposFilter implements Filter {
 
 	/**
