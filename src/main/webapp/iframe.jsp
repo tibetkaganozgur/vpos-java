@@ -3,6 +3,7 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
 
 <html>
+<%--
 <head>
 <title>Payment via Iframe</title>
 <base href="VPOS.jsp" target="_parent">
@@ -12,12 +13,11 @@
 	<iframe src="VPOS.jsp" style="border: none;" height="800" width="600"
 		title="iframe yoluyla odeme"></iframe>
 </body>
-
-<%--
-	<iframe src="VPOS.jsp" style="border: none;" height="800" width="600"
+ --%>
+<body>
+	<iframe src="VPOS.jsp" name="openthisiframe" style="border: none;" height="800" width="600"
 		title="iframe yoluyla odeme"></iframe>
 
-	<a href="VPOS.jsp" target="_blank"></a>
- --%>
-
+	<a href="VPOS.jsp" target="_blank, openthisiframe"></a>
+</body>
 </html>
