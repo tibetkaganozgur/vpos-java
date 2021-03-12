@@ -10,8 +10,8 @@
    
        <h1>Payment POC</h1>
        
-		<a href="iframe.jsp" target="_blank">Iframe ödeme isteği başlat</a>
-		<a href="VPOS.jsp" target="_blank">Uygulama içi ödeme isteği başlat</a>
+		<a href="iframe.jsp" target="_top">Iframe ödeme isteği başlat</a>
+		<a href="VPOS.jsp" target="_top">Uygulama içi ödeme isteği başlat</a>
 
  </body>
 </html>
