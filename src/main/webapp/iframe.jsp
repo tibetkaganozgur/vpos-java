@@ -5,7 +5,7 @@
 <html>
 <body>
 	
-	<iframe src="VPOS.jsp" style="border: none;" height="8000" width="6000"
+	<iframe src="VPOS.jsp" style="border: none;" height="800" width="600"
 		title="iframe yoluyla odeme"></iframe>
 		
 </body>
