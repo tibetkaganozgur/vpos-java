@@ -6,14 +6,12 @@
 <head>
 <title>Payment POC</title>
 </head>
- <body>
-   
-       <h1>Payment POC</h1>
-       
-		<a href="iframe.jsp">Iframe ödeme isteği başlat</a>
-		<a href="VPOS.jsp">Uygulama içi ödeme isteği başlat</a>
+<body>
 
- </body>
+	<h1>Payment POC</h1>
+
+	<a href="iframe.jsp">Iframe ödeme isteği başlat</a>
+	<a href="VPOS.jsp">Uygulama içi ödeme isteği başlat</a>
+
+</body>
 </html>
-
-
