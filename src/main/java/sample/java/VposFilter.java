@@ -27,15 +27,15 @@ public class VposFilter implements Filter {
 	public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
 			throws IOException, ServletException {
 		System.out.println("Filter working");
-		
-		((HttpServletResponse) response).reset(); //Instead of Remove because we do not have remove.
-		
+
+		((HttpServletResponse) response).reset(); // Instead of Response.Headers.Remove("X-Frame-Options"); because we do not have remove in jsp.
+
 		chain.doFilter(request, response);
 
 		((HttpServletResponse) response).setHeader("Set-Cookie", "key=value; HttpOnly; Secure; SameSite=None");
-		((HttpServletResponse) response).setHeader("X-Frame-Options", "AllowAll");
-		((HttpServletResponse) response).setHeader("Access-Control-Allow-Origin", "*");
-		((HttpServletResponse) response).setHeader("Access-Control-Allow-Credentials", "true");
+		//((HttpServletResponse) response).setHeader("X-Frame-Options", "AllowAll");
+		//((HttpServletResponse) response).setHeader("Access-Control-Allow-Origin", "*");
+		//((HttpServletResponse) response).setHeader("Access-Control-Allow-Credentials", "true");
 
 	}
 
