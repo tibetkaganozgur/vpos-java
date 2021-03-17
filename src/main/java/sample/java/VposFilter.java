@@ -30,7 +30,7 @@ public class VposFilter implements Filter {
 		chain.doFilter(request, response);
 		((HttpServletResponse) response).setHeader("Set-Cookie", "key=value; HttpOnly; Secure; SameSite=None");
 
-		((HttpServletResponse) response).reset();
+		//((HttpServletResponse) response).reset();
 		((HttpServletResponse) response).setHeader("X-Frame-Options", "AllowAll");
 		((HttpServletResponse) response).setHeader("Access-Control-Allow-Origin", "*");
 		((HttpServletResponse) response).setHeader("Access-Control-Allow-Credentials", "true");
