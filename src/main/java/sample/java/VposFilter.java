@@ -28,7 +28,7 @@ public class VposFilter implements Filter {
 			throws IOException, ServletException {
 		System.out.println("Filter working");
 
-		((HttpServletResponse) response).reset(); // Instead of Response.Headers.Remove("X-Frame-Options"); because we do not have remove in jsp.
+		//((HttpServletResponse) response).reset(); // Instead of Response.Headers.Remove("X-Frame-Options"); because we do not have remove in jsp.
 
 		chain.doFilter(request, response);
 

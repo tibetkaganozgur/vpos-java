@@ -10,8 +10,13 @@
 
 	<h1>Payment POC</h1>
 
-	<a href="iframe.jsp">Iframe ödeme isteği başlat</a>
+	<button class="btn-default" id="iframebutton" onClick="function clicked () {
+        console.log('makePayment clicked');
+    var i = 'top=0,left=0,width=' + window.outerWidth - 50 + ',height=' + window.outerHeight - 50 + ',status=yes,toolbar=no,scrollbars=yes,menubar=no,location=no,resizable=yes';
+    window.open('VPOS.jsp', '3dpaymentwindows', i)
+};clicked()">Iframe Ödeme isteği baslat</button>
+	
 	<a href="VPOS.jsp">Uygulama içi ödeme isteği başlat</a>
-
+        
 </body>
 </html>
